@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "qa-mode": {
+      "command": "node",
+      "args": [
+        "--disable-warning=ExperimentalWarning",
+        "${CLAUDE_PLUGIN_ROOT}/server/qa-mode-server.mjs"
+      ],
+      "env": {
+        "MCP_TOOL_TIMEOUT": "120000"
+      }
+    }
+  }
+}

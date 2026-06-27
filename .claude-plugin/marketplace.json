@@ -1,0 +1,14 @@
+{
+  "name": "qa-mode",
+  "owner": {
+    "name": "Danny Feinberg",
+    "email": "dfeinberg5@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "qa-mode",
+      "source": ".",
+      "description": "Visually comment on any live web page → Claude Code sub-agents implement the change. Pair multiple repos and switch between them per-tab in the extension popup. Ships the qa-mode MCP server (bundled, no native deps), the /qa-mode:feedback orchestrator, and the comment-handler sub-agent."
+    }
+  ]
+}
